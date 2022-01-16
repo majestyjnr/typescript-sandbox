@@ -2,7 +2,7 @@
 
 ## The code can be found in the app.ts file
 
-``Day 1. Core Types `
+``Day 1. Core Types``
 
 
 
