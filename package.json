@@ -1,0 +1,23 @@
+{
+  "name": "typescript-sandbox",
+  "version": "1.0.0",
+  "description": "A beginner's guide to typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majestyjnr/typescript-sandbox.git"
+  },
+  "author": "Developer Majesty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majestyjnr/typescript-sandbox/issues"
+  },
+  "homepage": "https://github.com/majestyjnr/typescript-sandbox#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
