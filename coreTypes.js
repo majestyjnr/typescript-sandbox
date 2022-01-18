@@ -4,6 +4,8 @@
 // Boolean  : These refers to any of these two; True or False (0, 1)
 // Object   :
 // Array    : 
+// Tuple    : A fixed-length array
+// Enum     : Automatically enumerated global constant identifiers / ASSIGNS LABELS TO NUMBERS
 // Number, String & Boolean Example
 function display(value1, value2, value3, isRead) {
     if (isRead) {
@@ -18,13 +20,22 @@ var num2 = 10;
 var num3 = 5;
 var isRead = true;
 display(num1, num2, num3, isRead);
-// Object And Array Example
+// Object, Array, Tuple and Enum Example
+var Role;
+(function (Role) {
+    Role[Role["ADMIN"] = 0] = "ADMIN";
+    Role[Role["READ_ONLY"] = 1] = "READ_ONLY";
+    Role[Role["SUPERADMIN"] = 2] = "SUPERADMIN";
+})(Role || (Role = {})); // ASSIGNS LABELS TO NUMBERS
 var staff = {
     name: 'Developer Majesty',
     position: 'Software Developer',
     age: 23,
-    attributes: ['Dancing', 'Coding', 'Cooking']
+    attributes: ['Dancing', 'Coding', 'Cooking'],
+    purpose: [0, 'engineer'],
+    role: Role.SUPERADMIN
 };
+// staff.role = [12, '44']      // Assign a new value to the tuple
 for (var attribute in staff.attributes) {
     console.log(attribute);
 }

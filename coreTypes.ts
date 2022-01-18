@@ -5,7 +5,7 @@
 // Object   :
 // Array    : 
 // Tuple    : A fixed-length array
-// Enum     : Automatically enumerated global constant identifiers
+// Enum     : Automatically enumerated global constant identifiers / ASSIGNS LABELS TO NUMBERS
 
 // Number, String & Boolean Example
 
@@ -26,20 +26,24 @@ display(num1, num2, num3, isRead)
 
 
 
-// Object And Array Example
+// Object, Array, Tuple and Enum Example
+
+enum Role {ADMIN, READ_ONLY, SUPERADMIN} // ASSIGNS LABELS TO NUMBERS
 
 const staff : {
     name: string;
     position: string;
     age: number;
-    attributes: any[]       // Could be any[], number[], boolean[], string[]
-    role: [number, string]  // Accepts two objects 
+    attributes: any[]           // Could be any[], number[], boolean[], string[]
+    purpose: [number, string]  // Accepts two objects 
+    role: Role.SUPERADMIN
 }={
     name: 'Developer Majesty',
     position: 'Software Developer',
     age: 23,
     attributes: ['Dancing', 'Coding', 'Cooking'],
-    role:[0, 'superadmin']
+    purpose:[0, 'engineer'],
+    role: Role.SUPERADMIN
 }
 
 // staff.role = [12, '44']      // Assign a new value to the tuple

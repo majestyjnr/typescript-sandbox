@@ -1,4 +1,4 @@
-# 60 days beginners guide to Typescript
+# 30 days beginners guide to Typescript
 
 
 ### Day 1. Core Types   {Numbers, Strings, Boolean, Objects, Array, Tuple}
