@@ -1,4 +1,5 @@
 // 1. DAY ONE   Core Types
+
 // number   : This refers to all numbers including integers and floats. eg: 2, 303, 2.03, 0.5
 // strings  : These refers  to text can are defined in one of these three ways. Thus 'Majesty', "Majesty", `Majesty`
 // Boolean  : These refers to any of these two; True or False (0, 1)
@@ -6,6 +7,7 @@
 // Array    : 
 // Tuple    : A fixed-length array
 // Enum     : Automatically enumerated global constant identifiers / ASSIGNS LABELS TO NUMBERS
+// Any      : Any kind of value, no specific type assignment
 
 // Number, String & Boolean Example
 
