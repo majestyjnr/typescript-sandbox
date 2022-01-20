@@ -1,3 +1,6 @@
+// UNION TYPE
+// DESCRIPTION      :       The allows a value to accept two or more data types
+
 function combine(value1: number | string, value2: number | string, value3: number | string){
     let output;
     if(typeof value1 === 'number' && typeof value2 === 'number' && typeof value3 === 'number'){
@@ -8,5 +11,6 @@ function combine(value1: number | string, value2: number | string, value3: numbe
     return output
 }
 
+// Calling the function with arguments
 console.log(combine(10, 15, 20))
 console.log(combine('I', 'am', 'Majesty'))
