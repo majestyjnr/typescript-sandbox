@@ -9,7 +9,7 @@ function combine1(value1: number | string, value2: number | string, literal: 'as
     let output;
     if(typeof value1 === 'number' && typeof value2 === 'number'){
         output = value1 + value2
-    } else {
+    } else if(value1 === 'as-text' && value2 === 'as-text') {
         output = value1.toString() + ' ' + value2.toString()
     }
     return output
