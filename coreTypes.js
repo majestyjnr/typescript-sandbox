@@ -6,6 +6,7 @@
 // Array    : 
 // Tuple    : A fixed-length array
 // Enum     : Automatically enumerated global constant identifiers / ASSIGNS LABELS TO NUMBERS
+// Any      : Any kind of value, no specific type assignment
 // Number, String & Boolean Example
 function display(value1, value2, value3, isRead) {
     if (isRead) {
