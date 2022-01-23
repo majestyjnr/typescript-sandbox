@@ -1,5 +1,7 @@
 # 30 days beginners guide to Typescript
 
+## All Typescript codes can be found in the SRC folder.
+## All generated JavsScript cod ecan be found in the dist folder
 
 # TABLE OF CONTENT
 
