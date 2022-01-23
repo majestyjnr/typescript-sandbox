@@ -9,7 +9,7 @@ interface StaffInterface {
     age: number;
     attributes: any[]           // Could be any[], number[], boolean[], string[]
     purpose: [number, string]  // Accepts two objects 
-    role: Role.SUPERADMIN,
+    role: string,
     email?: string             // The question mark helps to set properties to OPTIONAL
 }
 
@@ -20,7 +20,7 @@ const staff3 : StaffInterface ={
     age: 23,
     attributes: ['Dancing', 'Coding', 'Cooking'],
     purpose:[0, 'engineer'],
-    role: Role.SUPERADMIN
+    role: 'admin'
 }
 
 
