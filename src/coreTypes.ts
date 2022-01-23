@@ -32,6 +32,7 @@ display(num1, num2, num3, isRead)
 
 enum Role {ADMIN, READ_ONLY, SUPERADMIN} // ASSIGNS LABELS TO NUMBERS
 
+// Object Example 1
 const staff : {
     name: string;
     position: string;
@@ -40,6 +41,25 @@ const staff : {
     purpose: [number, string]  // Accepts two objects 
     role: Role.SUPERADMIN
 }={
+    name: 'Developer Majesty',
+    position: 'Software Developer',
+    age: 23,
+    attributes: ['Dancing', 'Coding', 'Cooking'],
+    purpose:[0, 'engineer'],
+    role: Role.SUPERADMIN
+}
+
+// Object Example 2
+type Staff = {
+    name: string;
+    position: string;
+    age: number;
+    attributes: any[]           // Could be any[], number[], boolean[], string[]
+    purpose: [number, string]  // Accepts two objects 
+    role: Role.SUPERADMIN
+}
+
+const staff2 : Staff ={
     name: 'Developer Majesty',
     position: 'Software Developer',
     age: 23,
