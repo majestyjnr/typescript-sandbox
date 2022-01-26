@@ -9,7 +9,9 @@
 ###### Day 2. Union And Literal Types, Type Alias                                             Found in UnionType.ts && literalType.ts
 ###### Day 3. Type Assertion
 ###### Day 4. Interfaces
-###### Day 4. Classes
+###### Day 5. Classes
+###### Day 6. Generics
+
 
 
 
